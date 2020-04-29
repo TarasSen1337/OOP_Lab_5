@@ -123,6 +123,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="AirForecast.cpp" />
+    <ClCompile Include="Date.cpp" />
+    <ClCompile Include="forecast.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PrecForecast.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AirForecast.h" />
+    <ClInclude Include="Date.h" />
+    <ClInclude Include="forecast.h" />
+    <ClInclude Include="PrecForecast.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
