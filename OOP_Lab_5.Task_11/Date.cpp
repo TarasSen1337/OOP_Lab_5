@@ -1,21 +1,9 @@
 #include "Date.h"
 
 
-bool Date::IsValidDate(int year, int month, int day)
-{
-	// TODO: implement date validation
-	return true;
-}
-
 Date::Date(int year, int month, int day)
 {
 	printf("Date::Date(int %d, int %d, int %d)\n", year, month, day);
-
-	if (!this->IsValidDate(year, month, day))
-	{
-		throw "Incorrect date";
-	}
-
 	this->year = year;
 	this->month = month;
 	this->day = day;
